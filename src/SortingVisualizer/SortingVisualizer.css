@@ -1,0 +1,20 @@
+.array-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 92vh;
+}
+
+.array-bar {
+	background-color: pink;
+	width: 2px;
+	margin: 0 1px;
+	display: inline-block;
+}
+
+button {
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 1px solid black;
+	cursor: pointer;
+}
