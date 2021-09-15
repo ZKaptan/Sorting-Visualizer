@@ -7,7 +7,7 @@
 
 .array-bar {
 	background-color: pink;
-	width: 2px;
+	width: 30px;
 	margin: 0 1px;
 	display: inline-block;
 }
@@ -17,4 +17,8 @@ button {
 	border-radius: 5px;
 	border: 1px solid black;
 	cursor: pointer;
+}
+
+.disabled {
+	pointer-events: none;
 }
