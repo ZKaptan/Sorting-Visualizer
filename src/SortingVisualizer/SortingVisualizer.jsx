@@ -65,13 +65,13 @@ const SortingVisualizer = (props) => {
 	};
 
 	const disableButtons = () => {
-		document.querySelector(".resetArray").disabled = true;
-		document.querySelector(".insertionSortBtn").disabled = true;
+		document.querySelector(".resetArray").classList.add("disabled");
+		document.querySelector(".insertionSortBtn").classList.add("disabled");
 	};
 
 	const enableButtons = () => {
-		document.querySelector(".resetArray").disabled = false;
-		document.querySelector(".insertionSortBtn").disabled = false;
+		document.querySelector(".resetArray").classList.remove("disabled");
+		document.querySelector(".insertionSortBtn").classList.remove("disabled");
 	};
 
 	const resetColors = () => {
@@ -104,7 +104,7 @@ const SortingVisualizer = (props) => {
 				Generate New Array
 			</button>
 			<button className="insertionSortBtn" onClick={() => insertionSort()}>
-				Insertion Sort
+				Sort
 			</button>
 		</Fragment>
 	);
