@@ -31,7 +31,7 @@ const waitForme = (speed) => {
 	return new Promise((resolve) => {
 		setTimeout(() => {
 			resolve("");
-		}, speed);
+		}, Math.abs(60 - speed));
 	});
 };
 

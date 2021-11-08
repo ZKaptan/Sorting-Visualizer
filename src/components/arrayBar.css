@@ -5,7 +5,7 @@
 
 .bar {
 	margin: 1px;
-	width: 10px;
+	width: 15px;
 	background-color: orange;
 }
 
@@ -13,14 +13,40 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: gray;
 	padding: 25px;
+	color: #fff;
 }
 
 header input {
 	margin-left: 5px;
+	color: #fff;
+}
+
+header .new_array_btn {
+	color: #198754;
+	border: 2px solid #198754;
 }
 
 header button {
 	margin: 0 25px;
+	background-color: inherit;
+	color: #0d6efd;
+	border: 2px solid #0d6efd;
+	height: 60px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+header button:disabled {
+	border: none;
+	pointer-events: none;
+}
+
+@media only screen and (max-width: 600px) {
+	header {
+		flex-direction: column;
+	}
+	.bar {
+		width: 8px;
+	}
 }

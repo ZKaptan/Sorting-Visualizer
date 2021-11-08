@@ -1,4 +1,3 @@
-import "./App.css";
 import ArrayBar from "./components/ArrayBar";
 
 function App() {
