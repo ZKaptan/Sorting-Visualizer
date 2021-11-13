@@ -85,7 +85,7 @@ const ArrayBar = (props) => {
 					className="sort_btn"
 					onClick={sortClickHandler}
 				>
-					Bubble Sort
+					Sort
 				</button>
 			</header>
 			<div className="array-container">
